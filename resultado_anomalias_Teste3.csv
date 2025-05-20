@@ -1,0 +1,16 @@
+timestamp,tipo_evento,categoria,nome,cpf,unidade,status,observacao,hora,minuto,dia_da_semana,anomalia,score de anomalia
+2025-05-18 12:41:46,ACCESS_GRANTED,Visitante,pedro,1524839336,46,Autorizado,admin,12,41,6,1,-0.24151556335810836
+2025-05-13 20:23:26,ACCESS_DENIED,Visitante,Rafael Mota,18618418941,46,NÃ£o autorizado,data expirada,20,23,1,1,-0.2275150116466999
+2025-05-18 13:03:00,ACCESS_GRANTED,Visitante,lucas silva,958472910,14A,Autorizado,Morador,13,3,6,0,0.0031664736526655357
+2025-05-18 13:03:15,ACCESS_GRANTED,Entregador,fernanda costa,1029384756,9,Autorizado,Morador,13,3,6,0,0.0031664736526655357
+2025-05-18 13:04:01,ACCESS_GRANTED,Prestador de ServiÃ§o,marcelo almeida,65748392011,33C,Autorizado,Morador,13,4,6,0,0.0010015968232869876
+2025-05-18 14:21:10,ACCESS_GRANTED,Visitante,ana paula,746291837,27B,Autorizado,Morador,14,21,6,0,0.0
+2025-05-18 14:21:22,ACCESS_GRANTED,Entregador,jose henrique,8491028374,17A,Autorizado,Morador,14,21,6,0,0.0
+2025-05-18 15:11:45,ACCESS_GRANTED,Prestador de ServiÃ§o,rafael lima,10394857621,02,Autorizado,carlos,15,11,6,1,-0.16239434600663222
+2025-05-18 15:12:15,ACCESS_GRANTED,Visitante,juliana dias,485739201,45D,Autorizado,Morador,15,12,6,0,0.047393718968453125
+2025-05-18 15:12:32,ACCESS_GRANTED,Entregador,daniel souza,1209384756,12B,Autorizado,Morador,15,12,6,0,0.047393718968453125
+2025-05-18 04:12:45,ACCESS_GRANTED,Visitante,Etevaldo,184845618,27,Autorizado,Morador,4,12,6,1,-0.07395203129577893
+2025-05-18 15:12:45,ACCESS_GRANTED,Visitante,carla,123456789,46,Autorizado,Morador,15,12,6,0,0.047393718968453125
+2025-05-18 15:13:00,ACCESS_GRANTED,Visitante,lucas,987654321,46,Autorizado,Morador,15,13,6,0,0.038242574806282736
+2025-05-18 15:13:15,ACCESS_DENIED,Visitante,rafael,1234567890,46,NÃ£o autorizado,data expirada,15,13,6,1,-0.2463527596326998
+2025-05-13 20:23:26,ACCESS_DENIED,Visitante,Carlos Alberto,8484518484,46,NÃ£o autorizado,data expirada,20,23,1,1,-0.2275150116466999

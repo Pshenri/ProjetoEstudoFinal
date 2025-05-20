@@ -1,0 +1,12 @@
+[2025-05-18 13:02:11]| SYSTEM| Tela de login carregada
+[2025-05-18 13:02:35]| SYSTEM| Usuário: joao logou no sistema
+[2025-05-18 13:03:00]| ACCESS_GRANTED| Visitante| lucas silva| 958472910| 14A| Autorizado| joao
+[2025-05-18 13:03:15]| ACCESS_GRANTED| Entregador| fernanda costa| 1029384756| 9| Autorizado| Morador
+[2025-05-18 13:04:01]| ACCESS_GRANTED| Prestador de Serviço| marcelo almeida| 65748392011| 33C| Autorizado| joao
+[2025-05-18 14:21:10]| ACCESS_GRANTED| Visitante| ana paula| 746291837| 27B| Autorizado| maria
+[2025-05-18 14:21:22]| ACCESS_GRANTED| Entregador| jose henrique| 8491028374| 17A| Autorizado| Morador
+[2025-05-18 15:10:42]| SYSTEM| Tela de login carregada
+[2025-05-18 15:11:05]| SYSTEM| Usuário: carlos logou no sistema
+[2025-05-18 15:11:45]| ACCESS_GRANTED| Prestador de Serviço| rafael lima| 10394857621| 02| Autorizado| Morador
+[2025-05-18 15:12:15]| ACCESS_GRANTED| Visitante| juliana dias| 485739201| 45D| Autorizado| carlos
+[2025-05-18 15:12:32]| ACCESS_GRANTED| Entregador| daniel souza| 1209384756| 12B| Autorizado| Morador

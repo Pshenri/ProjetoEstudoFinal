@@ -1,0 +1,51 @@
+[2025-05-18 12:40:42]| SYSTEM| Tela de login carregada
+[2025-05-18 12:41:09]| SYSTEM| Tentativa com usuário: admin invalido
+[2025-05-18 12:41:12]| SYSTEM| Usuário: admin logou no sistema
+[2025-05-18 12:41:46]| ACCESS_GRANTED| Visitante| pedro| 1524839336| 46| Autorizado| admin
+[2025-05-13 20:23:26]| ACCESS_DENIED| Visitante| Rafael Mota| 18618418941| 46| Não autorizado| data expirada
+[2025-05-18 13:03:00]| ACCESS_GRANTED| Visitante| lucas silva| 958472910| 14A| Autorizado| Morador
+[2025-05-18 13:03:15]| ACCESS_GRANTED| Entregador| fernanda costa| 1029384756| 9| Autorizado| Morador
+[2025-05-18 13:04:01]| ACCESS_GRANTED| Prestador de Serviço| marcelo almeida| 65748392011| 33C| Autorizado| Morador
+[2025-05-18 14:21:10]| ACCESS_GRANTED| Visitante| ana paula| 746291837| 27B| Autorizado| Morador
+[2025-05-18 14:21:22]| ACCESS_GRANTED| Entregador| jose henrique| 8491028374| 17A| Autorizado| Morador
+[2025-05-18 15:10:42]| SYSTEM| Tela de login carregada
+[2025-05-18 15:11:05]| SYSTEM| Usuário: carlos logou no sistema
+[2025-05-18 15:11:45]| ACCESS_GRANTED| Prestador de Serviço| rafael lima| 10394857621| 02| Autorizado| carlos
+[2025-05-18 15:12:15]| ACCESS_GRANTED| Visitante| juliana dias| 485739201| 45D| Autorizado| Morador
+[2025-05-18 15:12:32]| ACCESS_GRANTED| Entregador| daniel souza| 1209384756| 12B| Autorizado| Morador
+[2025-05-18 04:12:45]| ACCESS_GRANTED| Visitante| Etevaldo| 184845618| 27| Autorizado| Morador
+[2025-05-18 15:12:45]| ACCESS_GRANTED| Visitante| carla| 123456789| 46| Autorizado| Morador
+[2025-05-18 15:13:00]| ACCESS_GRANTED| Visitante| lucas| 987654321| 46| Autorizado| Morador
+[2025-05-18 15:13:15]| ACCESS_DENIED| Visitante| rafael| 1234567890| 46| Não autorizado| data expirada
+[2025-05-13 20:23:26]| ACCESS_DENIED| Visitante| Carlos Alberto| 8484518484| 46| Não autorizado| data expirada
+[2025-05-18 16:21:34]| ACCESS_GRANTED| Visitante| ana beatriz| 8593029483| 15C| Autorizado| Morador
+[2025-05-18 16:23:10]| ACCESS_GRANTED| Entregador| joão pedro| 3948571028| 08A| Autorizado| Morador
+[2025-05-18 16:25:55]| ACCESS_GRANTED| Prestador de Serviço| marcelo silva| 9283746510| 22| Autorizado| admin
+[2025-05-18 16:28:44]| ACCESS_DENIED| Visitante| bruno oliveira| 1231231230| 33| Não autorizado| fora do horário
+[2025-05-18 16:31:02]| ACCESS_GRANTED| Visitante| laura martins| 5647382910| 09| Autorizado| Morador
+[2025-05-18 16:34:17]| ACCESS_DENIED| Entregador| renato costa| 8392018473| 12B| Não autorizado| cadastro inexistente
+[2025-05-18 16:36:45]| ACCESS_GRANTED| Visitante| vinicius leal| 9182736455| 18A| Autorizado| Morador
+[2025-05-18 03:39:10]| ACCESS_GRANTED| Prestador de Serviço| adriana souza| 7382910456| 01| Autorizado| Morador
+[2025-05-18 16:42:22]| ACCESS_DENIED| Visitante| pedro henrique| 5647382910| 09| Não autorizado| documento inválido
+[2025-05-18 16:44:55]| ACCESS_GRANTED| Entregador| fernando ramos| 9382716450| 07C| Autorizado| Morador
+[2025-05-18 16:48:12]| ACCESS_GRANTED| Visitante| julia fernandes| 1827364510| 20D| Autorizado| Morador
+[2025-05-18 16:50:39]| ACCESS_GRANTED| Prestador de Serviço| carlos mendes| 9182736450| 17| Autorizado| Morador
+[2025-05-18 16:52:21]| ACCESS_DENIED| Visitante| talita dias| 8473629102| 30| Não autorizado| autorização vencida
+[2025-05-18 16:54:10]| ACCESS_GRANTED| Visitante| ricardo alves| 5647382910| 13A| Autorizado| Morador
+[2025-05-18 16:55:55]| ACCESS_GRANTED| Entregador| silvio santos| 1234567891| 26B| Autorizado| Morador
+[2025-05-18 16:57:23]| ACCESS_GRANTED| Visitante| marcia silva| 1092837465| 05| Autorizado| Morador
+[2025-05-18 16:59:48]| ACCESS_DENIED| Prestador de Serviço| rita lopes| 8372910348| 14| Não autorizado| não consta na lista
+[2025-05-18 17:01:35]| ACCESS_GRANTED| Visitante| luan pereira| 5647382910| 02B| Autorizado| Morador
+[2025-05-18 17:03:00]| ACCESS_GRANTED| Visitante| aline costa| 1029384756| 46| Autorizado| Morador
+[2025-05-18 17:05:16]| ACCESS_DENIED| Entregador| diego silva| 8473629102| 08C| Não autorizado| documento inválido
+[2025-05-20 15:40:05] |ACCESS_GRANTED| Entregador| leandro| 585546632325| 4| Autorizado| admin
+[2025-05-20 15:41:19] | SYSTEM         | Tela de login carregada
+[2025-05-20 15:41:27] | YSTEM         | Usuário: morador logou no sistema
+[2025-05-20 15:41:51] |ACCESS_GRANTED| Prestador de Serviço| Fernando| 184846269| 23| Autorizado| morador
+[2025-05-20 15:55:27] |ACCESS_GRANTED| Prestador de Serviço| Felipe| 65982929| 22| Autorizado| morador
+[2025-05-20 15:57:28] | SYSTEM         | Tela de login carregada
+[2025-05-20 15:57:51] | YSTEM         | Usuário: morador logou no sistema
+[2025-05-20 15:58:06] |ACCESS_GRANTED| Visitante| Kaique| 659592928| 11| Autorizado| morador
+[2025-05-20 16:00:31] | SYSTEM         | Tela de login carregada
+[2025-05-20 16:00:39] | YSTEM         | Usuário: morador logou no sistema
+[2025-05-20 16:01:00] |ACCESS_GRANTED| Prestador de Serviço| Sergio| 62223326288| 2A| Autorizado| morador
