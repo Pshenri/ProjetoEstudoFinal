@@ -1,0 +1,49 @@
+timestamp,tipo_evento,placa,local,observacao,hora,minuto,dia_da_semana,anomalia,score de anomalia
+2025-05-13 20:23:26,LPR,VIS7890,Estacionamento A saida,Autorizado,20,23,1,1,-0.1686862008072611
+2025-05-13 20:23:26,LPR,FTQ0246,entrada,Autorizado,20,23,1,1,-0.1686862008072611
+2025-05-13 20:23:26,LPR,KIQ7830,saida,Autorizado,20,23,1,1,-0.1686862008072611
+2025-05-13 20:23:26,LPR,VAS7490,Estacionamento A entrada,Autorizado,20,23,1,1,-0.1686862008072611
+2025-05-13 20:23:26,LPR,BAS3470,Placa cadastrada,Autorizado,20,23,1,1,-0.1686862008072611
+2025-05-13 20:23:26,LPR,BAS3470,Placa removida,NÃ£o autorizado,20,23,1,1,-0.27908161147440874
+2025-05-13 20:23:26,LPR,HAS7593,Estacionamento A entrada,NÃ£o autorizado,20,23,1,1,-0.27908161147440874
+2025-05-13 20:23:26,LPR,JUV4564,Estacionamento B entrada,Autorizado,20,23,1,1,-0.1686862008072611
+2025-05-20 14:12:45,LPR,MKT8392,entrada,Autorizado,14,12,1,0,0.0
+2025-05-20 14:13:01,LPR,ZTR2087,Estacionamento B entrada,Autorizado,14,13,1,0,0.0
+2025-05-20 14:13:14,LPR,QWE1830,Estacionamento A saÃ­da,NÃ£o autorizado,14,13,1,1,-0.07289966079422372
+2025-05-20 14:13:25,LPR,HGF0921,Placa cadastrada,Autorizado,14,13,1,0,0.0
+2025-05-20 14:13:30,LPR,HGF0921,Placa removida,NÃ£o autorizado,14,13,1,1,-0.07289966079422372
+2025-05-20 14:13:45,LPR,BVC9271,saÃ­da,Autorizado,14,13,1,0,0.0
+2025-05-20 14:14:02,LPR,UYT3500,entrada,NÃ£o autorizado,14,14,1,1,-0.07289966079422372
+2025-05-20 14:14:15,LPR,MNB7364,Estacionamento B entrada,Autorizado,14,14,1,0,0.0
+2025-05-20 14:14:31,LPR,PLM9823,Estacionamento A saÃ­da,Autorizado,14,14,1,0,0.0
+2025-05-20 03:14:43,LPR,QAZ5478,Placa cadastrada,Autorizado,3,14,1,1,-0.3425279612432793
+2025-05-20 14:14:50,LPR,QAZ5478,Placa removida,NÃ£o autorizado,14,14,1,1,-0.07289966079422372
+2025-05-20 14:15:05,LPR,XCV2319,Estacionamento B saÃ­da,Autorizado,14,15,1,0,0.0
+2025-05-20 14:15:17,LPR,WER5460,entrada,NÃ£o autorizado,14,15,1,1,-0.07289966079422372
+2025-05-20 14:15:23,LPR,TGB7842,Estacionamento A entrada,Autorizado,14,15,1,0,0.0
+2025-05-20 14:15:39,LPR,HJK6210,saÃ­da,Autorizado,14,15,1,0,0.0
+2025-05-20 14:15:52,LPR,LKJ9812,Estacionamento A saÃ­da,NÃ£o autorizado,14,15,1,1,-0.07289966079422372
+2025-05-20 14:16:08,LPR,CVB1596,Estacionamento B entrada,Autorizado,14,16,1,0,0.0
+2025-05-20 14:16:20,LPR,NMQ8723,Placa cadastrada,Autorizado,14,16,1,0,0.0
+2025-05-20 04:16:29,LPR,NMQ8723,Placa removida,NÃ£o autorizado,4,16,1,1,-0.34523710782203937
+2025-05-20 14:16:42,LPR,YUI3456,entrada,Autorizado,14,16,1,0,0.0
+2025-05-20 14:17:05,LPR,TRE9081,saÃ­da,Autorizado,14,17,1,0,0.0
+2025-05-20 14:17:13,LPR,POI1273,entrada,Autorizado,14,17,1,0,0.0
+2025-05-20 14:17:26,LPR,LKA3840,Estacionamento A entrada,NÃ£o autorizado,14,17,1,1,-0.07289966079422372
+2025-05-20 14:17:41,LPR,ZXC7402,Estacionamento B saÃ­da,Autorizado,14,17,1,0,0.0
+2025-05-20 14:17:54,LPR,VBN6520,Placa cadastrada,Autorizado,14,17,1,0,0.0
+2025-05-20 14:18:02,LPR,VBN6520,Placa removida,NÃ£o autorizado,14,18,1,1,-0.07289966079422372
+2025-05-20 14:18:18,LPR,UIK9033,Estacionamento A saÃ­da,Autorizado,14,18,1,0,0.0
+2025-05-20 14:18:31,LPR,MLO5729,entrada,NÃ£o autorizado,14,18,1,1,-0.07289966079422372
+2025-05-20 14:18:45,LPR,NHY3482,Estacionamento B entrada,Autorizado,14,18,1,0,0.0
+2025-05-20 14:18:56,LPR,GFD8201,saÃ­da,Autorizado,14,18,1,0,0.0
+2025-05-20 14:19:08,LPR,BGT4620,Estacionamento A entrada,Autorizado,14,19,1,0,0.0
+2025-05-20 14:19:20,LPR,CXZ1845,Estacionamento B saÃ­da,NÃ£o autorizado,14,19,1,1,-0.07289966079422372
+2025-05-20 14:19:33,LPR,WSD3759,Placa cadastrada,Autorizado,14,19,1,0,0.0
+2025-05-20 14:19:45,LPR,WSD3759,Placa removida,NÃ£o autorizado,14,19,1,1,-0.07289966079422372
+2025-05-20 14:19:58,LPR,ZAE1093,entrada,Autorizado,14,19,1,0,0.0
+2025-05-20 14:20:10,LPR,LOP7632,saÃ­da,Autorizado,14,20,1,0,0.0
+2025-05-20 14:20:23,LPR,FGH9207,Estacionamento A saÃ­da,Autorizado,14,20,1,0,0.0
+2025-05-20 14:20:37,LPR,MNB5371,Estacionamento B entrada,NÃ£o autorizado,14,20,1,1,-0.07289966079422372
+2025-05-20 14:20:51,LPR,QWE2084,entrada,Autorizado,14,20,1,0,0.0
+2025-05-20 14:21:05,LPR,ASD9635,Estacionamento A entrada,Autorizado,14,21,1,0,0.0

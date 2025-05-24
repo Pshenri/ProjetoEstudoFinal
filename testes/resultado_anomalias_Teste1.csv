@@ -1,0 +1,12 @@
+timestamp,tipo_evento,categoria,nome,cpf,unidade,status,observacao,hora,dia_da_semana,anomalia
+2025-05-18 12:41:46,ACCESS_GRANTED,Visitante,pedro,1524839336,46,Autorizado,admin,12,6,0
+2025-05-13 20:23:26,ACCESS_DENIED,Visitante,Rafael Mota,18618418941,46,NÃ£o autorizado,data expirada,20,1,0
+2025-05-18 13:03:00,ACCESS_GRANTED,Visitante,lucas silva,958472910,14A,Autorizado,joao,13,6,0
+2025-05-18 13:03:15,ACCESS_GRANTED,Entregador,fernanda costa,1029384756,9,Autorizado,Morador,13,6,0
+2025-05-18 13:04:01,ACCESS_GRANTED,Prestador de ServiÃ§o,marcelo almeida,65748392011,33C,Autorizado,joao,13,6,0
+2025-05-18 14:21:10,ACCESS_GRANTED,Visitante,ana paula,746291837,27B,Autorizado,maria,14,6,0
+2025-05-18 14:21:22,ACCESS_GRANTED,Entregador,jose henrique,8491028374,17A,Autorizado,Morador,14,6,0
+2025-05-18 15:11:45,ACCESS_GRANTED,Prestador de ServiÃ§o,rafael lima,10394857621,02,Autorizado,Morador,15,6,0
+2025-05-18 15:12:15,ACCESS_GRANTED,Visitante,juliana dias,485739201,45D,Autorizado,carlos,15,6,0
+2025-05-18 15:12:32,ACCESS_GRANTED,Entregador,daniel souza,1209384756,12B,Autorizado,Morador,15,6,0
+2025-05-13 20:23:26,ACCESS_DENIED,Visitante,Carlos Alberto,8484518484,46,NÃ£o autorizado,data expirada,20,1,0

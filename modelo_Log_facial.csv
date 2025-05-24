@@ -1,0 +1,35 @@
+[2025-05-24 10:00:05]| INFO| Dispositivo ligado. Versão de firmware: 2.1.0
+[2025-05-24 10:25:10]| INFO| Conexão com o servidor estabelecida (IP: 192.168.1.100).
+[2025-05-24 10:55:15]| DEBUG| Inicializando módulo de reconhecimento facial.
+[2025-05-18 12:05:46]| ACCESS_GRANTED| pedro| 1524839336| Portao A| Autorizado| entrada
+[2025-05-13 12:23:26]| ACCESS_DENIED| Ana Carolina Santos| 12345678901| Portao C| Não autorizado| data expirada
+[2025-05-13 13:23:26]| ACCESS_DENIED| Desconhecido| | Portao C| Não autorizado| Desconhecido
+[2025-05-18 13:41:46]| ACCESS_GRANTED| Felipe Xavier Souza| 67890123456| Portao A| Autorizado| entrada
+[2025-05-18 13:51:46]| ACCESS_GRANTED| pedro| 1524839336| Portao A| Autorizado| entrada
+[2025-05-13 14:23:26]| ACCESS_GRANTED| Matheus Mota| 18618418941| Portao C| Autorizado| entrada
+[2025-05-13 14:29:26]| ACCESS_GRANTED| Isabela Cristina Barros| 90123456789| Portao C| Autorizado| entarda
+[2025-05-20 14:30:34]| ACCESS_GRANTED| Ana Paula| 12345678900| Portao B| Autorizado| entrada
+[2025-05-20 15:03:18]| ACCESS_GRANTED| Roberto| 1122334455| Portao C| Autorizado| entrada
+[2025-05-18 15:15:47]| ACCESS_DENIED| Desconhecido| | Portao B| Não autorizado| Desconhecido
+[2025-05-19 15:22:10]| ACCESS_GRANTED| Julia Souza| 9988776655| Portao A| Autorizado| saida
+[2025-05-17 16:05:59]| ACCESS_GRANTED| Tiago Silva| 7766554433| Portao C| Autorizado| entrada
+[2025-05-20 16:15:22]| ACCESS_GRANTED| Fernanda| 4455667788| Portao B| Autorizado| entrada
+[2025-05-19 17:40:26]| ACCESS_GRANTED| Felipe Xavier Souza| 67890123456| Portao C| Autorizado| saida
+[2025-05-18 17:33:44]| ACCESS_DENIED| Desconhecido| | Portao A| Não autorizado| Desconhecido
+[2025-05-20 17:50:31]| ACCESS_GRANTED| Vinicius| 1122112211| Portao B| Autorizado| entrada
+[2025-05-19 18:17:23]| ACCESS_GRANTED| Andre| 6677889900| Portao A| Autorizado| entrada
+[2025-05-18 18:25:14]| ACCESS_GRANTED| Amanda| 4433221100| Portao C| Autorizado| entrada
+[2025-05-19 18:45:37]| ACCESS_DENIED| Desconhecido| | Portao B| Não autorizado| Desconhecido
+[2025-05-17 20:13:05]| ACCESS_GRANTED| Eduardo| 7788990011| Portao A| Autorizado| saida
+[2025-05-20 20:25:44]| ACCESS_GRANTED| Natalia Antunes Cardoso| 33445566778| Portao B| Autorizado| entrada
+[2025-05-20 20:32:15]| ACCESS_GRANTED| Camila| 1010101010| Portao A| Autorizado| entrada
+[2025-05-19 21:22:05]| ACCESS_GRANTED| Leandro| 2020202020| Portao B| Autorizado| entrada
+[2025-05-18 21:10:41]| ACCESS_DENIED| Ricardo Dias| 3030303030| Portao A| Não autorizado| data expirada
+[2025-05-17 21:05:22]| ACCESS_GRANTED| Natalia Antunes Cardoso| 33445566778| Portao C| Autorizado| entrada
+[2025-05-19 22:47:17]| ACCESS_GRANTED| Bruno| 5050505050| Portao A| Autorizado| entrada
+[2025-05-18 23:11:03]| ACCESS_DENIED| Gustavo| 6060606060| Portao C| Não autorizado| cadastro ausente
+[2025-05-17 23:23:39]| ACCESS_GRANTED| Rafaela| 7070707070| Portao B| Autorizado| saida
+[2025-05-20 03:36:21]| ACCESS_DENIED| Desconhecido| | Portao A| Não autorizado| Desconhecido
+[2025-05-18 05:09:55]| ACCESS_GRANTED| Wellington| 8080808080| Portao C| Autorizado| entrada
+[2025-05-24 10:00:45]| ERROR| Falha na comunicação com o servidor de banco de dados. Tentando reconectar...
+[2025-05-24 10:00:50]| INFO| Reconexão com o servidor de banco de dados bem-sucedida.
