@@ -3,6 +3,9 @@ from sklearn.metrics import silhouette_score
 from sklearn.preprocessing import StandardScaler
 import numpy as np
 from collect_logs_Facial import df_acessos,df_modelo
+from sklearn.manifold import TSNE
+import matplotlib.pyplot as plt
+import seaborn as sns
 import joblib
 
 # Normalização dos dados
@@ -50,6 +53,17 @@ df_acessos['score de anomalia'] = scores
 
 # Salvar resultado em CSV
 df_acessos.to_csv('resultado_anomalias_Facial.csv', index=False)
+
+tsne = TSNE(n_components=2, random_state=44)
+X_tsne = tsne.fit_transform(d_normal)
+df_acessos['tsne1'] = X_tsne[:, 0]
+df_acessos['tsne2'] = X_tsne[:, 1]
+
+plt.figure(figsize=(10, 6))
+sns.scatterplot(data=df_acessos, x='tsne1', y='tsne2', hue='anomalia', palette=['blue', 'red'], alpha=0.7)
+plt.title("Visualização das Anomalias com t-SNE")
+plt.savefig("visualizacao_Facial_tsne.png")
+plt.show()
 
 print("Arquivo 'resultado_anomalias_Facial.csv' salvo com sucesso.")
 

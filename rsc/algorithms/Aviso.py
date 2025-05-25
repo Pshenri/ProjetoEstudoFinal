@@ -33,3 +33,10 @@ else:
     print("\n---")
     print("Todas as linhas onde 'anomalia' é igual a 1 no DataFrame combinado:")
     print(anomalias_detectadas)
+
+    df_suspeitos = df_combinado.sort_values(by='score de anomalia').head(10)
+    print(df_suspeitos)
+
+    df_combinado[df_combinado['anomalia'] == 1] \
+    .sort_values(by='score de anomalia') \
+    .to_csv('anomalias_detectadas.csv', index=False)

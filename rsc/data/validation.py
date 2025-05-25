@@ -3,6 +3,9 @@ from sklearn.ensemble import IsolationForest
 from sklearn.preprocessing import StandardScaler
 import numpy as np
 from collect_Logs_Acess import df_acessos,df_modelo
+from sklearn.manifold import TSNE
+import matplotlib.pyplot as plt
+import seaborn as sns
 # import joblib
 
 # Normalização dos dados
@@ -11,7 +14,7 @@ d_normal = scaler.fit_transform(df_modelo)
 
 # Parâmetros que serão testados
 param_grid = {
-    'n_estimators': [45, 100, 200],
+    'n_estimators': [50, 100, 200, 300],
     'max_samples': ['auto', 0.6, 0.9],
     'contamination': [0.4, 0.5]
 }
@@ -46,6 +49,18 @@ print(df_acessos['anomalia'].value_counts())
 
 # Adiciona a coluna de scores ao DataFrame
 df_acessos['score de anomalia'] = scores
+
+tsne = TSNE(n_components=2, random_state=44)
+X_tsne = tsne.fit_transform(d_normal)
+df_acessos['tsne1'] = X_tsne[:, 0]
+df_acessos['tsne2'] = X_tsne[:, 1]
+
+plt.figure(figsize=(10, 6))
+sns.scatterplot(data=df_acessos, x='tsne1', y='tsne2', hue='anomalia', palette=['blue', 'red'], alpha=0.7)
+plt.title("Visualização das Anomalias com t-SNE")
+plt.savefig("visualizacao_Acesso_tsne.png")
+plt.show()
+
 
 # Salvar resultado em CSV
 df_acessos.to_csv('resultado_anomalias.csv', index=False)

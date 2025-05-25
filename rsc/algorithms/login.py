@@ -14,7 +14,7 @@ def iniciar_login():
         usuario = entry_usuario.get()
         senha = entry_senha.get()
         if usuario in usuarios and usuarios[usuario] == senha:
-            log_evento(f"| YSTEM         | Usuário: {usuario} logou no sistema")
+            log_evento(f"| SYSTEM         | Usuário: {usuario} logou no sistema")
             messagebox.showinfo("Login", f"Bem-vindo, {usuario}!")
             janela.destroy()
             abrir_painel(usuario)
