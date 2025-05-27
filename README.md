@@ -1,13 +1,16 @@
 # 🚀 Pipeline de Logs Inteligente para Análise de Acessos em Sistema de Portaria Virtual com Foco em Modelo Preditivo de Comportamento Utilizando Isolation Forest
 
-**Resumo:** Descreva aqui em 2 ou 3 linhas o propósito geral do seu projeto. Explique de forma clara e objetiva a solução proposta e seu contexto de aplicação.
 Melhorar a análise de logs de sistemas de portaria virtual, utilizando técnicas de aprendizado de máquina para identificar padrões de acesso e comportamentos suspeitos.
+A utilização do algoritmo Isolation Forest permite identificar anomalias no fluxo de acessos.
+Este estudo se torna relevante ao propor um pipeline de logs inteligente que automatiza a análise e melhora a capacidade preditiva dos sistemas de controle de acesso.
 
 ---
 
 ## 🎯 Objetivo
 
 Descreva com mais detalhes os objetivos do projeto. O que o sistema resolve? Qual a motivação? Como ele se relaciona com o conteúdo da disciplina?
+Desenvolver uma pipeline de logs inteligente para a análise de acessos em um sistema de portaria virtual,
+com o intuito de aprimorar a segurança e a eficiência da gestão de acessos, utilizando modelo preditivo, com foco na aplicação do algoritmo Isolation Forest.
 
 ---
 
@@ -93,7 +96,7 @@ Inclua aqui prints, gifs ou vídeos mostrando a interface ou o funcionamento do 
 
 | Nome | GitHub |
 |------|--------|
-| Pedro henrique | [@fulano](https://github.com/fulano) |
+| Pedro henrique | [@Pshenri](https://github.com/Pshenri) |
 | Ciclano Souza | [@ciclano](https://github.com/ciclano) |
 
 ---
