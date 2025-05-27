@@ -9,8 +9,7 @@ Este estudo se torna relevante ao propor um pipeline de logs inteligente que aut
 ## 🎯 Objetivo
 
 Descreva com mais detalhes os objetivos do projeto. O que o sistema resolve? Qual a motivação? Como ele se relaciona com o conteúdo da disciplina?
-Desenvolver uma pipeline de logs inteligente para a análise de acessos em um sistema de portaria virtual,
-com o intuito de aprimorar a segurança e a eficiência da gestão de acessos, utilizando modelo preditivo, com foco na aplicação do algoritmo Isolation Forest.
+
 
 ---
 
