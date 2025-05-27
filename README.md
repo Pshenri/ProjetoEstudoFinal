@@ -1,6 +1,7 @@
-# 🚀 Nome do Projeto
+# 🚀 Pipeline de Logs Inteligente para Análise de Acessos em Sistema de Portaria Virtual com Foco em Modelo Preditivo de Comportamento Utilizando Isolation Forest
 
 **Resumo:** Descreva aqui em 2 ou 3 linhas o propósito geral do seu projeto. Explique de forma clara e objetiva a solução proposta e seu contexto de aplicação.
+Melhorar a análise de logs de sistemas de portaria virtual, utilizando técnicas de aprendizado de máquina para identificar padrões de acesso e comportamentos suspeitos.
 
 ---
 
@@ -12,14 +13,10 @@ Descreva com mais detalhes os objetivos do projeto. O que o sistema resolve? Qua
 
 ## 👨‍💻 Tecnologias Utilizadas
 
-Liste as principais tecnologias, linguagens, frameworks e bibliotecas utilizadas:
-
-- Python 3.12 / Java / C++
-- Streamlit / FastAPI / Flask
-- SQLite / PostgreSQL
-- React / HTML + CSS + JS
-- Graphviz / NetworkX (caso use grafos)
-- Outros...
+- Python 3.13
+- scikit-learn / IsolationForest
+- pandas / numpy
+- matplotlib / seaborn
 
 ---
 
