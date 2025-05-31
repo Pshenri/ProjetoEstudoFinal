@@ -90,10 +90,21 @@ python validation_facial.py
 
 Inclua aqui prints, gifs ou vídeos mostrando a interface ou o funcionamento do sistema:
 
-- Tela inicial
+- Tela inicial(Exemplo de interface para gera logs)
 - ![image](https://github.com/user-attachments/assets/ef00778a-26bb-4b03-8d96-eae7e11d080b)
 
-- Exemplo de funcionalidade
+- Exemplo de funcionalidade(codigo escolhendo melhor parametro para o modelo e mostrando numeros de anomalias encontrados: 0 - normal, 1 - Anomalia)
+- ![image](https://github.com/user-attachments/assets/1e9fa6ec-2d30-4cf2-8220-cb5eadc23295)
+
+- Visualização de Anomalias, pontos vermelhos representa anomalias pontos azuis normal)
+- ![image](https://github.com/user-attachments/assets/643158ed-804c-461d-937c-a140aa0373cc)
+
+- Exemplo de geração de relatórios
+- ![image](https://github.com/user-attachments/assets/cee24e9c-3645-4439-8ea4-ebd796d2c20f)
+
+- Exemplos de alertas gerados os 10 ultimas deteçao de anomalias
+- ![image](https://github.com/user-attachments/assets/08a844a9-aa39-482e-8810-2480d05a4476)
+
 - Resultados esperados
 
 ---
