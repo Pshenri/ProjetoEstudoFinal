@@ -8,8 +8,13 @@ Este estudo se torna relevante ao propor um pipeline de logs inteligente que aut
 
 ## 🎯 Objetivo
 
-Descreva com mais detalhes os objetivos do projeto. O que o sistema resolve? Qual a motivação? Como ele se relaciona com o conteúdo da disciplina?
-
+O projeto tem como principal objetivo desenvolver um pipeline inteligente de análise de logs para sistemas de portaria virtual, com foco na identificação de comportamentos anômalos e padrões de acesso incomuns. Para isso, será utilizado o algoritmo Isolation Forest, uma técnica de aprendizado de máquina voltada para detecção de anomalias.
+Objetivos específicos:
+Automatizar a coleta, limpeza e armazenamento de logs
+Analisar os padrões de acesso
+Aplicar o modelo Isolation Forest
+Gerar relatórios automáticos
+Fornecer visualizações gráficas
 
 ---
 
@@ -30,12 +35,12 @@ A estrutura a seguir é um exemplo. Vocês devem usar a estrutura do seu projeto
 ```
 📦 ProjetoEstudoFinal
 ├── 📁 src
-│   ├── algorithms
-│   ├── data
-|   |   ├── validation_fAcial.py
+│   ├── algorithms/
+│   ├── data/
+|   |   ├── validation_facial.py
 |   |   ├── validation_placa.py
 |   |   ├── validation.py
-│   ├── testes
+│   ├── testes/
 ├── main.py
 ├── README.md
 └── requirements.txt
@@ -86,6 +91,8 @@ python validation_facial.py
 Inclua aqui prints, gifs ou vídeos mostrando a interface ou o funcionamento do sistema:
 
 - Tela inicial
+- ![image](https://github.com/user-attachments/assets/ef00778a-26bb-4b03-8d96-eae7e11d080b)
+
 - Exemplo de funcionalidade
 - Resultados esperados
 
@@ -96,14 +103,13 @@ Inclua aqui prints, gifs ou vídeos mostrando a interface ou o funcionamento do 
 | Nome | GitHub |
 |------|--------|
 | Pedro henrique | [@Pshenri](https://github.com/Pshenri) |
-| Ciclano Souza | [@ciclano](https://github.com/ciclano) |
+| HENRY KAUÃ | [@Henry](https://github.com/henry) |
 
 ---
 
 ## 🧠 Disciplinas Envolvidas
 
 - Estrutura de Dados I
-- Teoria dos Grafos
 - Linguagens Formais e Autômatos
 
 ---
