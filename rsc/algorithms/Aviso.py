@@ -1,6 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+from fpdf import FPDF
+import os
 
 # df = pd.read_csv('resultado_anomalias.csv', 'resultado_anomalias_Placas.csv', 'resultados_anomalias_Facial.csv')
 # anomalias_detectadas = df[df['anomalia'] == 1]
@@ -45,6 +47,8 @@ else:
     # Configuração visual
     sns.set(style='whitegrid')
     plt.rcParams['figure.figsize'] = (10, 6)
+    output_dir = "relatorio_output"
+    os.makedirs(output_dir, exist_ok=True)
 
     # Carregar os dados
     df = pd.read_csv('anomalias_detectadas.csv')
@@ -70,7 +74,8 @@ else:
     plt.title('Acessos por Categoria')
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.savefig('acessos_por_categoria.png')
+    graf1 = os.path.join(output_dir, 'acessos_por_categoria.png')
+    plt.savefig(graf1)
     plt.show()
 
     # -----------------------------
@@ -83,7 +88,8 @@ else:
     plt.xlabel('Unidade')
     plt.ylabel('Quantidade de Acessos')
     plt.tight_layout()
-    plt.savefig('acessos_por_unidade.png')
+    graf2 = os.path.join(output_dir,'acessos_por_unidade.png')
+    plt.savefig(graf2)
     plt.show()
 
     # -----------------------------
@@ -96,7 +102,8 @@ else:
     sns.countplot(data=df, x='dia_label', order=dias)
     plt.title('Acessos por Dia da Semana')
     plt.tight_layout()
-    plt.savefig('acessos_por_dia.png')
+    graf3 = os.path.join(output_dir,'acessos_por_dia.png')
+    plt.savefig(graf3)
     plt.show()
 
     # -----------------------------
@@ -106,7 +113,8 @@ else:
     sns.histplot(data=df, x='hora', bins=24, discrete=True)
     plt.title('Distribuição de Acessos por Hora do Dia')
     plt.tight_layout()
-    plt.savefig('acessos_por_hora.png')
+    graf4 = os.path.join(output_dir,'acessos_por_hora.png')
+    plt.savefig(graf4)
     plt.show()
 
     # -----------------------------
@@ -117,7 +125,8 @@ else:
     plt.title('Distribuição por Status do Acesso')
     plt.xticks(rotation=0)
     plt.tight_layout()
-    plt.savefig('status_acessos.png')
+    graf5 = os.path.join(output_dir,'status_acessos.png')
+    plt.savefig(graf5)
     plt.show()
 
     # -----------------------------
@@ -130,5 +139,47 @@ else:
     plt.title('Principais Motivos de Recusa')
     plt.xlabel('Quantidade')
     plt.tight_layout()
-    plt.savefig('motivos_recusa.png')
+    graf6 = os.path.join(output_dir,'motivos_recusa.png')
+    plt.savefig(graf6)
     plt.show()
+
+    class PDF(FPDF):
+        def header(self):
+            self.set_font("Arial", "B", 14)
+            self.cell(0, 10, "Relatório Operacional e de Acesso", ln=True, align="C")
+            self.ln(5)
+
+        def add_image_title(self, title, image_path):
+            self.set_font("Arial", "B", 12)
+            self.cell(0, 10, title, ln=True)
+            self.image(image_path, w=180)
+            self.ln(10)
+
+    pdf = PDF()
+    pdf.set_auto_page_break(auto=True, margin=15)
+    pdf.add_page()
+
+    # Texto de resumo
+    total = len(df)
+    autorizados = len(df[df['status'] == 'Autorizado'])
+    negados = len(df[df['status'] != 'Autorizado'])
+    percentual_negados = (negados / total) * 100
+
+    pdf.set_font("Arial", "", 12)
+    pdf.multi_cell(0, 10,
+        f"Total de registros: {total}\n"
+        f"Acessos autorizados: {autorizados}\n"
+        f"Acessos negados: {negados} ({percentual_negados:.2f}%)\n"
+    )
+
+    # Adiciona gráficos
+    pdf.add_image_title("Acessos por Categoria", graf1)
+    pdf.add_image_title("Top 10 Unidades com Mais Acessos", graf2)
+    pdf.add_image_title("Acessos por Dia da Semana", graf3)
+    pdf.add_image_title("Distribuição por Hora", graf4)
+    pdf.add_image_title("Status dos Acessos", graf5)
+    pdf.add_image_title("Principais Motivos de Recusa", graf6)
+
+    # Salvar PDF
+    pdf_path = os.path.join(output_dir, "relatorio_acessos.pdf")
+    pdf.output(pdf_path)
