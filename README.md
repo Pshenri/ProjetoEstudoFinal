@@ -104,6 +104,7 @@ python validation_facial.py
 - ![image](https://github.com/user-attachments/assets/08a844a9-aa39-482e-8810-2480d05a4476)
 
 - Resultados esperados
+- ![image](https://github.com/user-attachments/assets/dbe79153-1afb-4aed-bac1-aa98eba227ec)
 
 ---
 
