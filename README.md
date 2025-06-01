@@ -88,8 +88,6 @@ python validation_facial.py
 
 ## 📸 Demonstrações
 
-Inclua aqui prints, gifs ou vídeos mostrando a interface ou o funcionamento do sistema:
-
 - Tela inicial(Exemplo de interface para gera logs)
 - ![image](https://github.com/user-attachments/assets/ef00778a-26bb-4b03-8d96-eae7e11d080b)
 
